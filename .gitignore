@@ -1,0 +1,6 @@
+backups/
+node_modules/
+*.jsonl
+*.jsonl.1
+*.tgz
+.DS_Store

@@ -1,0 +1,63 @@
+{
+  "name": "dsh-speed-gauge",
+  "version": "1.0.1",
+  "private": false,
+  "description": "在 DSH 标题栏放一个速度仪表盘：实时显示当前会话的生成速度、最近 30 秒曲线和输出量。",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "dashboard",
+    "tok/s"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "main": "host.js",
+  "exports": {
+    ".": {
+      "default": "./host.js"
+    },
+    "./client": {
+      "default": "./client.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "host.js",
+    "sampler.js",
+    "client.js",
+    "panel-worker.js",
+    "cordis.patch.yml",
+    "LICENSE",
+    "CHANGELOG.md",
+    "RELEASE.md",
+    "shots/promo.png",
+    "shots/preview-light.png",
+    "shots/preview-dark.png",
+    "README.md",
+    "README.en.md",
+    "shots/how-to-open.png"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": false
+    },
+    "react-dom": {
+      "optional": false
+    }
+  }
+}

@@ -1,0 +1,6 @@
+# 生成速度仪表盘：把插件行插进 profile 的 loader 名册。
+# 安装：'…\dsh.cmd' plugin --profile desktop add C:\dev\dsh-lab\speed-gauge
+# 卸载：'…\dsh.cmd' plugin --profile desktop remove dsh-speed-gauge
+- insert:
+    - id: speed-gauge
+      name: dsh-speed-gauge

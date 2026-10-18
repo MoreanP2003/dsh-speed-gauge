@@ -1,0 +1,31 @@
+name: publish
+
+# 打 tag 时用 npm Trusted Publishing (OIDC) 发布，不需要任何长期令牌。
+# 前提：先在 npm 上成功发布过一次，然后本地执行
+#   npm trust github dsh-speed-gauge --file .github/workflows/publish.yml --repo MoreanP2003/dsh-speed-gauge --allow-publish
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  id-token: write   # OIDC：npm 用它换取一次性发布凭据
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          registry-url: https://registry.npmjs.org
+
+      - name: Show package identity
+        run: node -e "const p=require('./package.json');console.log(p.name+'@'+p.version)"
+
+      - name: Publish
+        run: npm publish --access public --provenance
