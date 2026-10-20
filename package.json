@@ -1,13 +1,17 @@
 {
   "name": "dsh-speed-gauge",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": false,
   "description": "在 DSH 标题栏放一个速度仪表盘：实时显示当前会话的生成速度、最近 30 秒曲线和输出量。",
   "keywords": [
     "dsh",
     "dsh-plugin",
     "dashboard",
-    "tok/s"
+    "token",
+    "tok/s",
+    "speed",
+    "gauge",
+    "monitor"
   ],
   "license": "MIT",
   "type": "module",
@@ -59,5 +63,13 @@
     "react-dom": {
       "optional": false
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MoreanP2003/dsh-speed-gauge.git"
+  },
+  "homepage": "https://github.com/MoreanP2003/dsh-speed-gauge#readme",
+  "bugs": {
+    "url": "https://github.com/MoreanP2003/dsh-speed-gauge/issues"
   }
 }

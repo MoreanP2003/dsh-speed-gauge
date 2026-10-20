@@ -1,5 +1,9 @@
 # 更新记录
 
+## 1.0.2
+
+- package.json 补上 repository / homepage / bugs / keywords，让插件市场能把仓库和 npm 包对应起来
+
 ## 1.0.1
 
 - 发布到 npm：dsh plugin add dsh-speed-gauge 一条命令即可安装
