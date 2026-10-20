@@ -1,6 +1,6 @@
 {
   "name": "dsh-speed-gauge",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": false,
   "description": "在 DSH 标题栏放一个速度仪表盘：实时显示当前会话的生成速度、最近 30 秒曲线和输出量。",
   "keywords": [
@@ -50,6 +50,9 @@
     },
     "client": {
       "platform": "web"
+    },
+    "engines": {
+      "dsh": ">=0.2.1-rc.2"
     }
   },
   "peerDependencies": {

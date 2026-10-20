@@ -1,5 +1,9 @@
 # 更新记录
 
+## 1.0.3
+
+- 在 package.json 声明 dsh.engines.dsh，插件市场因此能显示宿主要求（DSH >= 0.2.1-rc.2）
+
 ## 1.0.2
 
 - package.json 补上 repository / homepage / bugs / keywords，让插件市场能把仓库和 npm 包对应起来
