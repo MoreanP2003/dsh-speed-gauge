@@ -6,7 +6,7 @@
 
 **每秒 50 次获取 tok/s**：逐 chunk 计数，测量更细更精准；主线程卡顿也不掉帧。
 
-![面板](shots/promo.png)
+![面板](https://raw.githubusercontent.com/MoreanP2003/dsh-speed-gauge/main/shots/promo.png)
 
 ## 主要功能
 
@@ -69,13 +69,13 @@ dsh plugin --profile desktop remove dsh-speed-gauge
 
 装好后标题栏会多出一个「速度仪表盘」按钮，点它就展开面板，再点收起（状态会记住）。
 
-![点这里打开面板](shots/how-to-open.png)
+![点这里打开面板](https://raw.githubusercontent.com/MoreanP2003/dsh-speed-gauge/main/shots/how-to-open.png)
 
 面板右侧的「归零」清空当前会话的累计值与峰值。
 
 | 浅色 | 深色 |
 |---|---|
-| ![浅色](shots/preview-light.png) | ![深色](shots/preview-dark.png) |
+| ![浅色](https://raw.githubusercontent.com/MoreanP2003/dsh-speed-gauge/main/shots/preview-light.png) | ![深色](https://raw.githubusercontent.com/MoreanP2003/dsh-speed-gauge/main/shots/preview-dark.png) |
 
 ## 数据口径
 

@@ -1,5 +1,12 @@
 # 更新记录
 
+## 1.0.4
+
+- 发布到 npm（`dsh plugin add dsh-speed-gauge` 可直接安装）；
+- 修正 package.json 描述；
+- README 安装说明改为 npm 一条命令。
+
+
 ## 1.0.3
 
 - 在 package.json 声明 dsh.engines.dsh，插件市场因此能显示宿主要求（DSH >= 0.2.1-rc.2）

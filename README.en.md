@@ -6,7 +6,7 @@ A generation-speed gauge for DSH. It lives in the header bar: click once to open
 
 **50 tok/s samples per second**: every streamed chunk is counted for finer, more accurate measurement, and a busy main thread does not stall the animation.
 
-![Panel](shots/promo.png)
+![Panel](https://raw.githubusercontent.com/MoreanP2003/dsh-speed-gauge/main/shots/promo.png)
 
 ## Features
 
@@ -69,13 +69,13 @@ dsh plugin --profile desktop remove dsh-speed-gauge
 
 After installing, a **Speed dial** button appears in the header bar. Click it to open the panel, click again to close it (the choice is remembered).
 
-![Click here to open the panel](shots/how-to-open.png)
+![Click here to open the panel](https://raw.githubusercontent.com/MoreanP2003/dsh-speed-gauge/main/shots/how-to-open.png)
 
 The **Reset** button on the right clears the totals and peak for the current session.
 
 | Light | Dark |
 |---|---|
-| ![Light](shots/preview-light.png) | ![Dark](shots/preview-dark.png) |
+| ![Light](https://raw.githubusercontent.com/MoreanP2003/dsh-speed-gauge/main/shots/preview-light.png) | ![Dark](https://raw.githubusercontent.com/MoreanP2003/dsh-speed-gauge/main/shots/preview-dark.png) |
 
 ## How the numbers are computed
 

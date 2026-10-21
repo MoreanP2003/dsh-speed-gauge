@@ -1,8 +1,8 @@
 {
   "name": "dsh-speed-gauge",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "private": false,
-  "description": "在 DSH 标题栏放一个速度仪表盘：实时显示当前会话的生成速度、最近 30 秒曲线和输出量。",
+  "description": "A generation-speed gauge for DSH: a half-circle dial and a flowing trend curve, sampling tok/s 50 times a second for finer, more accurate measurement; tuck it away with a header button at any time.",
   "keywords": [
     "dsh",
     "dsh-plugin",
@@ -74,5 +74,25 @@
   "homepage": "https://github.com/MoreanP2003/dsh-speed-gauge#readme",
   "bugs": {
     "url": "https://github.com/MoreanP2003/dsh-speed-gauge/issues"
+  },
+  "dshhub": {
+    "schemaVersion": 1,
+    "displayName": "dsh-speed-gauge",
+    "summary": "给 DSH 加一个生成速度仪表盘：半圆表盘与流动曲线趋势图，一秒 50 次获取 tok/s，测量更细更精准，可随时用标题栏按钮收起。",
+    "categories": [
+      "观测",
+      "Web UI"
+    ],
+    "surfaces": [
+      "host",
+      "web"
+    ],
+    "compatibility": {
+      "dsh": ">=0.2.1-rc.2",
+      "node": ">=20"
+    },
+    "permissions": {
+      "network": []
+    }
   }
 }
