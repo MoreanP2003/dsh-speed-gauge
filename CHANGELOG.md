@@ -1,5 +1,11 @@
 # 更新记录
 
+## 1.0.5
+
+- 新增 `screenshots.json`，插件市场据此展示预览图；
+- README 图片改为绝对地址，npm 页面可直接显示。
+
+
 ## 1.0.4
 
 - 发布到 npm（`dsh plugin add dsh-speed-gauge` 可直接安装）；

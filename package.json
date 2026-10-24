@@ -1,6 +1,6 @@
 {
   "name": "dsh-speed-gauge",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "private": false,
   "description": "A generation-speed gauge for DSH: a half-circle dial and a flowing trend curve, sampling tok/s 50 times a second for finer, more accurate measurement; tuck it away with a header button at any time.",
   "keywords": [
@@ -39,7 +39,8 @@
     "shots/preview-dark.png",
     "README.md",
     "README.en.md",
-    "shots/how-to-open.png"
+    "shots/how-to-open.png",
+    "screenshots.json"
   ],
   "engines": {
     "node": ">=20"
